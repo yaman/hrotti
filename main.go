@@ -3,9 +3,8 @@ package main
 import (    "os"
 	"os/signal"
 	"syscall"
-
-	. "github.com/abdulkadiryaman/hrotti/broker"
 	"fmt"
+	. "github.com/abdulkadiryaman/hrotti/broker"
 )
 
 func main() {

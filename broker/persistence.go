@@ -1,4 +1,4 @@
-package hrotti
+package broker
 
 type PersistenceBatchEntry struct {
 	id      msgId
