@@ -3,6 +3,7 @@ package plugins
 import (
 	"strings"
 	"sync"
+	. "github.com/abdulkadiryaman/hrotti/broker"
 )
 
 type RedirectPlugin struct {

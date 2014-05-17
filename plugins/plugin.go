@@ -1,4 +1,4 @@
-package hrotti
+package plugins
 
 import (
 	"encoding/json"

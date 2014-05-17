@@ -59,6 +59,7 @@ func (h *Hrotti) AddListener(name string, config *ListenerConfig) error {
 		//override the Websocket handshake to accept any protocol name
 		server.Handshake = func(c *websocket.Config, req *http.Request) (err error) {
 			INFO.Println(c.Protocol)
+			DEBUG.Println(req)
 			return err
 		}
 		//set up the ws connection handler, ie what we do when we get a new websocket connection

@@ -1,9 +1,9 @@
 package broker
 
 import (
-	"io/ioutil"
 	"log"
 	"net/url"
+	"os"
 )
 
 //loggers
@@ -15,10 +15,10 @@ var (
 )
 
 func init() {
-	INFO = log.New(ioutil.Discard, "", 0)
-	PROTOCOL = log.New(ioutil.Discard, "", 0)
-	ERROR = log.New(ioutil.Discard, "", 0)
-	DEBUG = log.New(ioutil.Discard, "", 0)
+	INFO = log.New(os.Stderr, "", 0)
+	PROTOCOL = log.New(os.Stderr, "", 0)
+	ERROR = log.New(os.Stderr, "", 0)
+	DEBUG = log.New(os.Stderr, "", 0)
 }
 
 type ListenerConfig struct {

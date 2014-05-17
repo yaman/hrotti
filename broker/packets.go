@@ -36,20 +36,20 @@ var packetNames = map[uint8]string{
 }
 
 const (
-	CONNECT     = 1
-	CONNACK     = 2
-	PUBLISH     = 3
-	PUBACK      = 4
-	PUBREC      = 5
-	PUBREL      = 6
-	PUBCOMP     = 7
-	SUBSCRIBE   = 8
-	SUBACK      = 9
-	UNSUBSCRIBE = 10
-	UNSUBACK    = 11
-	PINGREQ     = 12
-	PINGRESP    = 13
-	DISCONNECT  = 14
+	CONNECT     = byte(1)
+	CONNACK     = byte(2)
+	PUBLISH     = byte(3)
+	PUBACK      = byte(4)
+	PUBREC      = byte(5)
+	PUBREL      = byte(6)
+	PUBCOMP     = byte(7)
+	SUBSCRIBE   = byte(8)
+	SUBACK      = byte(9)
+	UNSUBSCRIBE = byte(10)
+	UNSUBACK    = byte(11)
+	PINGREQ     = byte(12)
+	PINGRESP    = byte(13)
+	DISCONNECT  = byte(14)
 )
 
 const (
