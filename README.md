@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/abdulkadiryaman/hrotti.svg?branch=master)](https://travis-ci.org/abdulkadiryaman/hrotti)
+[![Build Status](https://travis-ci.org/abdulkadiryaman/hrotti.svg?branch=master)](https://travis-ci.org/abdulkadiryaman/hrotti) [![Coverage Status](https://coveralls.io/repos/abdulkadiryaman/hrotti/badge.png)](https://coveralls.io/r/abdulkadiryaman/hrotti)
 
 hrotti
 ======
