@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/abdulkadiryaman/hrotti.svg?branch=master)](https://travis-ci.org/abdulkadiryaman/hrotti) [![Coverage Status](https://coveralls.io/repos/abdulkadiryaman/hrotti/badge.png)](https://coveralls.io/r/abdulkadiryaman/hrotti)
+[![Build Status](https://travis-ci.org/abdulkadiryaman/hrotti.svg?branch=master)](https://travis-ci.org/abdulkadiryaman/hrotti) [![Coverage Status](https://coveralls.io/repos/abdulkadiryaman/hrotti/badge.png)](https://coveralls.io/r/abdulkadiryaman/hrotti) [![Code Climate](https://codeclimate.com/github/abdulkadiryaman/hrotti.png)](https://codeclimate.com/github/abdulkadiryaman/hrotti)
 
 hrotti
 ======
