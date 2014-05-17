@@ -1,3 +1,5 @@
+https://travis-ci.org/abdulkadiryaman/hrotti.svg?branch=master
+
 hrotti
 ======
 
